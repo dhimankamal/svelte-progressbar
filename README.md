@@ -34,12 +34,12 @@ To use the `ProgressBar` component, import it into your Svelte file:
 
 ## Contributing
 
-Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md) before submitting pull requests.
+Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](https://github.com/dhimankamal/svelte-progressbar/blob/main/CONTRIBUTING) before submitting pull requests.
 
 ## License
 
-This package is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
+This package is licensed under the MIT License. See [LICENSE](https://github.com/dhimankamal/svelte-progressbar/blob/main/LICENSE) for more details.
 
 ## Issues
 
-If you encounter any issues with this package, please report them [here](link-to-issues).
+If you encounter any issues with this package, please report them [here](https://github.com/dhimankamal/svelte-progressbar/issues).
