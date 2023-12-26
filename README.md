@@ -32,6 +32,12 @@ To use the `ProgressBar` component, import it into your Svelte file:
 - **Default:** `"red"`
 - **Description:** Change the color of the progress bar by providing a valid CSS color value.
 
+### `height`
+
+- **Type:** String
+- **Default:** `"0.125em"`
+- **Description:** Change the height of the progress bar by providing a valid CSS height value.
+
 ## Contributing
 
 Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](https://github.com/dhimankamal/svelte-progressbar/blob/main/CONTRIBUTING) before submitting pull requests.

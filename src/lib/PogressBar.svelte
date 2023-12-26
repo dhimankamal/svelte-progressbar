@@ -7,6 +7,7 @@
   import { navigationState } from "./store/index.js";
 
   export let color = "red";
+  export let height = '0.125em'
 
   let showTopLoader = false;
 
@@ -47,7 +48,7 @@
   >
     <div
       class={"bar"}
-      style={`height: 0.125em; transform: scaleX(${$progress}); transform-origin: center left; background-color: ${color}`}
+      style={`height: ${height}; transform: scaleX(${$progress}); transform-origin: center left; background-color: ${color}`}
     />
   </div>
 {/if}
