@@ -20,7 +20,7 @@ To use the `ProgressBar` component, import it into your Svelte file:
   import { ProgressBar } from "progressbar-svelte";
 </script>
 
-<ProgressBar color="red" />
+<ProgressBar color="red" height="0.125em" />
 <slot />
 ```
 
