@@ -40,7 +40,7 @@ To use the `ProgressBar` component, import it into your Svelte file:
 
 ## Contributing
 
-Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](https://github.com/dhimankamal/svelte-progressbar/blob/main/CONTRIBUTING) before submitting pull requests.
+Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](https://github.com/dhimankamal/svelte-progressbar/blob/main/CONTRIBUTING.md) before submitting pull requests.
 
 ## License
 
