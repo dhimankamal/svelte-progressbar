@@ -18,7 +18,7 @@ Thank you for considering contributing to progressbar-svelte! Please follow thes
 
 ## Code of Conduct
 
-Please adhere to the [Code of Conduct](link-to-code-of-conduct) to ensure a respectful and inclusive environment for everyone.
+Please adhere to the [Code of Conduct](https://github.com/sveltejs/community/blob/main/CODE_OF_CONDUCT.md) to ensure a respectful and inclusive environment for everyone.
 
 Thank you for your contributions!
 
