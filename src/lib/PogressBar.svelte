@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onDestroy, onMount } from "svelte";
+  import { onDestroy } from "svelte";
   import { navigating } from "$app/stores";
   import { fly } from "svelte/transition";
   import { tweened } from "svelte/motion";
@@ -7,7 +7,7 @@
   import { navigationState } from "./store/index.js";
 
   export let color = "red";
-  export let height = '0.125em'
+  export let height = "0.125em";
 
   let showTopLoader = false;
 
@@ -22,21 +22,21 @@
     }
   );
 
-  onMount(() => {
-    progress.set(0.9);
-  });
-
   onDestroy(() => {
     unsubscribe();
   });
 
+  $: console.log("$navigating", $navigating);
+
   $: if ($navigating) {
     $navigationState = "loading";
     showTopLoader = true;
+    progress.set(0.8, { duration: 5000 });
   } else {
     $navigationState = "loaded";
     setTimeout(() => {
       showTopLoader = false;
+      progress.set(0, { duration: 0 });
     }, 500);
   }
 </script>
