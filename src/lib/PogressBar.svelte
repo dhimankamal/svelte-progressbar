@@ -37,7 +37,8 @@
     setTimeout(() => {
       showTopLoader = false;
       progress.set(startPosition, { duration: 0 });
-    }, exitDelay);
+    }, exitDelay+10 );
+    
   }
 </script>
 
