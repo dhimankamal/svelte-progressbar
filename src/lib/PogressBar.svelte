@@ -20,7 +20,7 @@
 
   const unsubscribe = navigationState.subscribe(
     (state: "loading" | "loaded" | null) => {
-      if (state === "loaded") progress.set(1, { duration: 300 });
+      if (state === "loaded") progress.set(1, { duration: exitDelay });
     }
   );
 
