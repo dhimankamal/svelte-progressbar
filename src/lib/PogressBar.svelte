@@ -8,12 +8,13 @@
 
   export let color = "red";
   export let height = "0.125em";
-  export let exitDelay = 500;
+  export let exitDelay = 500; // exit delay in milliseconds
+  export let startPosition = 0; // initial position (0 to 1)
 
   let showTopLoader = false;
 
-  const progress = tweened(0, {
-    duration: 3500,
+  const progress = tweened(startPosition, {
+    duration: 0,
     easing: cubicOut,
   });
 
@@ -35,7 +36,7 @@
     $navigationState = "loaded";
     setTimeout(() => {
       showTopLoader = false;
-      progress.set(0, { duration: 0 });
+      progress.set(startPosition, { duration: 0 });
     }, exitDelay);
   }
 </script>
