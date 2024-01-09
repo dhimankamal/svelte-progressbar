@@ -20,7 +20,7 @@ To use the `ProgressBar` component, import it into your Svelte file:
   import { ProgressBar } from "progressbar-svelte";
 </script>
 
-<ProgressBar color="red" height="0.125em" />
+<ProgressBar color="red" height="0.125em" exitDelay="500" startPosition="0"/>
 <slot />
 ```
 
@@ -37,6 +37,18 @@ To use the `ProgressBar` component, import it into your Svelte file:
 - **Type:** String
 - **Default:** `"0.125em"`
 - **Description:** Change the height of the progress bar by providing a valid CSS height value.
+
+### `exitDelay`
+
+- **Type:** Number
+- **Default:** `"500"`
+- **Description:** To modify the exitDelay duration of the progress bar, provide a valid time duration in milliseconds.
+
+### `startPosition`
+
+- **Type:** Number
+- **Default:** `"0"`
+- **Description:** Set the initial position of the progress bar along the x-axis as a value between 0 and 1.
 
 ## Contributing
 
