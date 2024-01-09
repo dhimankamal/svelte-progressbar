@@ -8,6 +8,7 @@
 
   export let color = "red";
   export let height = "0.125em";
+  export let exitDelay = 500;
 
   let showTopLoader = false;
 
@@ -26,8 +27,6 @@
     unsubscribe();
   });
 
-  $: console.log("$navigating", $navigating);
-
   $: if ($navigating) {
     $navigationState = "loading";
     showTopLoader = true;
@@ -37,7 +36,7 @@
     setTimeout(() => {
       showTopLoader = false;
       progress.set(0, { duration: 0 });
-    }, 500);
+    }, exitDelay);
   }
 </script>
 
